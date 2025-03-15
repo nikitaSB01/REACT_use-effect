@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  width: 220px;
+  border: 1px solid #ccc;
+}
+
+.list-item {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  background-color: #f9f9f9;
+}
+
+.list-item.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.details {
+  margin-left: 20px;
+  padding: 20px;
+  width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.avatar {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
