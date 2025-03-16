@@ -1,4 +1,3 @@
-import React from "react";
 import { UserShort } from "../types";
 
 interface ListProps {
